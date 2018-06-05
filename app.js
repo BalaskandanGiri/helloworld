@@ -1,2 +1,3 @@
-console.log("hello world");
-//asd
+const modules = require('./counter');
+console.log(modules(['bala','giri']));
+console.log(modules());
